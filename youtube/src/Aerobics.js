@@ -9,6 +9,9 @@ import img7 from './Images/th.jpg'
 
 export default function Aerobics() {
   return (
+
+    <div class='row' >
+      <div class='col-sm-3'>
     <div><h1 class=" text-success">hi this is page Aerobics</h1>
     <img src={img1} style={{height:'200px' , width:'200px'}} class='mx-5 my-3'></img>
     <img src={img2} style={{height:'200px' , width:'200px'}} class='mx-5 my-3'></img>
@@ -19,7 +22,7 @@ export default function Aerobics() {
     <img src={img7} style={{height:'200px' , width:'200px'}} class='mx-5 my-3'></img>
     
     </div>
-
-    
+    </div>
+    </div>
   )
 }

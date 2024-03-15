@@ -1,0 +1,78 @@
+
+
+
+#login{
+  background-color: cyan;
+  
+}
+
+#start{
+  color:red;
+}
+
+/*login page*/
+#box
+{
+  height: 400px;
+  width: 600px;
+  background-color:rgb(252, 100, 150);
+  border-radius: 20px;
+  box-shadow: 0px 0px 20px rgb(48, 5, 19);
+  padding-top: 2%;
+  padding-left: 3%;
+  padding-right: 3%;
+  margin-top: 2%;
+  margin-left: 25%;
+}
+
+
+#content{
+  color: black;
+  font-size: 80px;
+  padding-top: 150px;
+}
+
+#moving{
+  background-color:palevioletred;
+  color:black;
+  font-style: italic;
+  font-weight: bolder;
+}
+
+#btn{
+  background-color: palevioletred;
+  font-size: 20px;
+  font-weight: bold;
+  color: black;
+}
+
+
+#password{
+  background-color: rgb(205, 210, 213);
+}
+
+#nav{
+  background-color:rgb(252, 100, 150);
+  white-space: 2;
+  
+}
+
+#btn{
+  color: white;
+  white-space: 2;
+  background-color:rgb(252, 100, 150);
+}
+
+#moving{
+
+  color:black;
+  font-style: italic;
+  font-weight: bolder;
+  background-color: white;
+  
+}
+
+#logo{
+  border-radius: 50%;
+
+}

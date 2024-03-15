@@ -5,27 +5,31 @@ import { YoutubeMenu } from './YoutubeMenu';
 import All from './Component/All';
 import BollywoodMusic from './Component/BollywoodMusic';
 import Aerobics from './Aerobics';
-import Navbar from './Component/Navbar'
 import Movies from './Component/Movies'
 import Cartoon from './Component/Cartoon';
 import HomeImprovement from './Component/HomeImprovement';
+import Topnavbar from './Component/Topnavbar';
+import Sidebar from './Component/Sidebar';
 
 function App() {
   return (
     <div>
-      
+
+      <Topnavbar></Topnavbar>
+
     
-      <Navbar></Navbar>
-      <hr></hr>
-      
+    
+    
             
       <BrowserRouter>
+      <YoutubeMenu ></YoutubeMenu>
+      <Sidebar></Sidebar>
+   
       
-
-      <YoutubeMenu></YoutubeMenu>
-      
+    
+     
       <Routes>
-      
+    <Route path='/Sidebar' element={<Sidebar/>}></Route>
         <Route path='/All' element={<All/>}></Route>
     <Route path='/Movies' element={<Movies/>}></Route>
      <Route path='/BollywoodMusic' element={<BollywoodMusic/>}></Route>

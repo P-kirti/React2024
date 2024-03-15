@@ -3,7 +3,9 @@ import { Link } from 'react-router-dom'
 
 export const YoutubeMenu = () => {
   return (
-    <div>
+    
+    <div id='margin' >
+
    <Link button class='btn btn-primary mx-2' to='/All' >All</Link>
    <Link button class='btn btn-warning mx-2' to='/Movies'>Movies</Link>
     <Link button class='btn btn-info mx-2' to='/BollywoodMusic'>BollywoodMusic</Link>
@@ -13,6 +15,7 @@ export const YoutubeMenu = () => {
 
 
     </div>
+    
   )
 }
 

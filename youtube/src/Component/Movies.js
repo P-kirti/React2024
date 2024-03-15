@@ -14,6 +14,7 @@ export default function Movies() {
     <img src={movie5} style={{height:'200px', width:'200px'}} class='mx-2 my-2'></img>
     
     
+    
     </div>
     
   )

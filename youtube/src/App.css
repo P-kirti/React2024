@@ -1,5 +1,48 @@
 #searchbar{
     border-radius: 10cm;
+    margin-top: 2%;
+    margin-left: 8%;
 
 }
 
+#gap{
+    margin-top: 2%;
+}
+
+#margin{
+    margin-left: 18%;
+    padding-top: 1%;
+
+    
+
+
+}
+
+
+
+.vertical-menu {
+    width: 110px;
+  }
+  
+  .vertical-menu a {
+    background-color: #eee;
+    color: black;
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+  }
+  
+  .vertical-menu a:hover {
+    background-color: #ccc;
+  }
+  
+  .vertical-menu a.active {
+    background-color:whitesmoke;
+    color:black;
+    font-weight: bold;
+  }
+
+  #style{
+height: 9%;
+width: 90px;
+  }
